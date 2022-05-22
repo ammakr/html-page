@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  
+<style>
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- hero section start -->
+<div class="relative bg-white overflow-hidden my-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <polygon points="50,0 100,0 50,100 0,100" />
+      </svg>
+
+      <div>
+        <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="#">
+                  <span class="sr-only">Workflow</span>
+                  <img alt="Workflow" class="h-8 w-auto sm:h-10" src="./images/logo.png">
+                </a>
+                <!-- <div class="-mr-2 flex items-center md:hidden">
+                  <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-700" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span> -->
+                    <!-- Heroicon name: outline/menu -->
+                    <!-- <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div> -->
+            </div>
+            <!-- <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+              <a href="#" class="font-bold text-gray-500 hover:text-gray-900">Product</a>
+
+              <a href="#" class="font-bold text-gray-500 hover:text-gray-900">Features</a>
+
+              <a href="#" class="font-bold text-gray-500 hover:text-gray-900">Marketplace</a>
+
+              <a href="#" class="font-bold text-gray-500 hover:text-gray-900">Company</a>
+
+              <a href="#" class="font-bold text-indigo-600 hover:text-indigo-700">Log in</a>
+            </div> -->
+          </nav>
+        </div>
+
+        <!--
+          Mobile menu, show/hide based on menu open state.
+
+          Entering: "duration-150 ease-out"
+            From: "opacity-0 scale-95"
+            To: "opacity-100 scale-100"
+          Leaving: "duration-100 ease-in"
+            From: "opacity-100 scale-100"
+            To: "opacity-0 scale-95"
+        -->
+        <!-- <div class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div class="px-5 pt-4 flex items-center justify-between">
+              <div>
+                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-700">
+                  <span class="sr-only">Close main menu</span>
+                
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
+
+              <a href="#" class="block px-3 py-2 rounded-md text-base font-bold text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
+            </div>
+            <a href="#" class="block w-full px-5 py-3 text-center font-bold text-indigo-600 bg-gray-50 hover:bg-gray-100"> Log in </a>
+          </div>
+        </div> -->
+      </div>
+
+      <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+        <div class="sm:text-center lg:text-left">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+            <span class="block">We are a leading</span>
+            <span class="block text-indigo-600 xl:inline">Facilities Management Company</span>
+          </h1>
+          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">We have a strong reputation for delivering an outstanding service in Integrated Facilities Management and Technical Services UAE wide.</p>
+          <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <!-- <div class="rounded-md shadow">
+              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"> Get started </a>
+            </div>
+            <div class="mt-3 sm:mt-0 sm:ml-3">
+              <a href="#" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Live demo </a>
+            </div> -->
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="./images/hero.jpg" alt="">
+  </div>
+</div>
+<!-- hero section end -->
+
+
+
+<!-- our services' start -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-16 mx-auto">
+    <div class="flex flex-col">
+      <div class="h-1 bg-gray-200 rounded overflow-hidden">
+        <div class="w-24 h-full bg-indigo-700"></div>
+      </div>
+      <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+        <h1 class="sm:w-2/5 text-gray-900 font-bold title-font text-2xl mb-2 sm:mb-0">Our Services</h1>
+        <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
+      </div>
+    </div>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/mechanical.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Mechanical Services</h2>
+        <p class="text-base leading-relaxed mt-2">We carry out general maintenance, preventive maintenance, installation of mechanical assets, attending to reactive complaints & troubleshooting.
+        </p>
+      
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/electrician.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Electrical Services</h2>
+        <p class="text-base leading-relaxed mt-2">W/A specializes in risk audit through to preventative electrical maintenance for your premise. We nyintain distribution boards, control panels and low voltage (LV) panels, capacitor banks as well as lighting systems.
+        </p>
+      
+      </div>
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/plumbing.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Plumbing Services</h2>
+        <p class="text-base leading-relaxed mt-2">We can adapt to suit the needs of our clients, including upgrades and repairs, as well as installations. We are the first port of call for the plumbing needs of our clients, delivering an exceptional standard of service.</p>
+      
+      </div>
+      
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/hvac.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">HVAC</h2>
+        <p class="text-base leading-relaxed mt-2">We provide a wide range of services, including the management of fresh air handling units (FAHU), Air handling units (AHU), Fan cooling units (FCU) and chillers and heat exchangers. Our HVAC services are available to both residential and commer cial properties.</p>
+      
+      </div>
+      
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/housekeeping.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Housekeeping Services</h2>
+        <p class="text-base leading-relaxed mt-2">With advanced experience and knowledge in deep cleaning residential and commercial spaces, we will work with you to deliver to your expectations. If you need our cleaning services regularly, we can adapt to suit your individual needs.
+          </p>
+      
+      </div>
+      
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/clean.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Premise Deep Cleaning        </h2>
+        <p class="text-base leading-relaxed mt-2">Our cleaning staff will be happy to provide a cleaning service, both big or small, commercial or residential. We understand the importance of delivering a vality cleaning service, and we can also respond to immediate adhoc cleaning requirements or ongoing contractual ones.
+        </p>
+      
+      </div>
+      
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/carpenter.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Building and Turnkey Projects
+        </h2>
+        <p class="text-base leading-relaxed mt-2">We can provide complete fitouts and refur bishments, all types of flooring work bathroom fitouts, kitchen fitouts, carpentry and joinery, decorative and simple ceiling works, blockwork, tiling, painting and more.</p>
+      
+      </div>
+      
+
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="./images/manpower.jpg">
+        </div>
+        <h2 class="text-xl font-bold title-font text-gray-900 mt-5">Manpower Supply        </h2>
+        <p class="text-base leading-relaxed mt-2">We at KEMOS are prepared to provide staff to work on your projects our team capacity caters to small to large sized projects. We have highly experienced and trained staff available to cover a range of roles.</p>
+      
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- our services' start ends -->
+
+
+<!-- our values section -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-16 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-bold text-center title-font text-gray-900 mb-4">Our Values</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Our people are at the frontline of our priority and together we created values that are built to outperform in our role in the Facilities Management Industry.</p>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">Excellence & Reliablity</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">Accountablity & Agility</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">Integrity</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">Social Responsibility</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">Social Responsibility</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-700 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-bold">People Centered</span>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</section>
+<!-- our values section ended -->
+
+
+<!-- our team section starts -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-16 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">Our Team</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Our management team is our core team and where innovation and solutions to improving our
+        technical services is managed and encouraged. </p>
+    </div>
+    <div class="flex flex-wrap -m-2">
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Mr Waseem Ashraf</h2>
+            <p class="text-gray-500">Chairman</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Project Manager</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Housekeeping Attendant</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Facility Engineer</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Concierge</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Foreman</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Stewards</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Technecians, MEP, HVAC</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-bold">Parking Attendants</h2>
+            <p class="text-gray-500"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- our team section end -->
+
+
+<!-- ceo message starts -->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-16 mx-auto">
+    <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+        <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+      </svg>
+      <p class="leading-relaxed text-lg">The idea for WASEEM ASHRAF Facilities Management came about in 2021 during my quest to provide reliable and efficient facility management services in UAE. I truly believe that every business should be focused on what will benefit the
+        customer and this is why I am personally committed perfecting our services and encouraging
+        innovation within the team and our clients. It's that attention to a personalized service that has
+        grown from a small organization to a national corporation. We manage facilities and premises UAE
+        wide, yet I still make it my mission to provide unparalleled customer service to our supporting
+        patrons.
+        OUR Facilities Management stands firm in its values. Integrity, honesty, excellence and mutual
+        respect drive us forward and will continue to define our organization. Through our rapid success,
+        we've been able to continually increase our team in number and expertise and serve more
+        customers since our humble beginnings. It makes me proud how versatile our capabilities are; our
+        team can serve small, medium and large sized projects in the UAE.
+        Finally, I'd like to personally thank you for taking the time to explore KEMOS's services and all that
+        we stand for. We're proud of our achievements but what keeps us going is our overwhelmingly
+        positive client feedback. </p>
+      <span class="inline-block h-1 w-10 rounded bg-indigo-700 mt-8 mb-6"></span>
+      <h2 class="text-gray-900 font-bold title-font tracking-wider text-sm">Mr Waseem Ashraf</h2>
+      <p class="text-gray-500">Chairman</p>
+    </div>
+  </div>
+</section>
+
+<!-- ceo message ends -->
+
+
+<!-- footer -->
+<footer class="text-gray-600 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-bold items-center md:justify-start justify-center text-gray-900">
+      <img src="./images/logo.png" alt="Logo" class="max-w-xs">
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 W. A Facilities Management —
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Waseem Ashraf</a>
+    </p>
+    <!-- <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span> -->
+  </div>
+</footer>
+
+
+
+</body>
+</html>
